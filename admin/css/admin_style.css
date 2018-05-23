@@ -1,0 +1,36 @@
+/* admin panel by honeyonsys 
+http://www.honeyonsys.com
+*/
+body{font-family:arial; margin:0px;}
+.main_cont{width:1020px; height:auto; float:left; }
+.header{width:100%; height:40px; float:left; font-size:20px; color:#fff; line-height:40px; background:#1a1a1a;} 
+.admin_area{width:1020px; height:auto; float:left; margin:10px 0 10px 0; }
+.menubar_cont{width:200px; height:300px; float:left; background:#04214a; margin-bottom:10px;}
+.menubtn{width:190px; height:25px; float:left; line-height:25px; font-size:12px; font-weight:bold; padding-left:10px; color:#fff; background:url(../images/right_arrow.gif) right no-repeat; cursor:pointer; }
+.menubtn_norm{width:190px; height:25px; float:left; line-height:25px; font-size:12px; font-weight:bold; padding-left:10px; color:#fff; cursor:pointer; }
+.menubtn:hover div{display:block;}
+.menubtn:hover, .menubtn_norm:hover{ background-color:#60a5bc;}
+.sub_menu{width:200px; height:auto; float:left; position:absolute; margin-left:190px; margin-top:-25px; background-color:#60a5bc; display:none; z-index:100;}
+.sub_menubtn{width:190px; height:25px; float:left; line-height:25px; font-size:12px; padding-left:10px; color:#fff; background-color:#60a5bc;}
+.sub_menubtn:hover{text-decoration:underline;}
+.admin_module_area{width:800px; height:auto; float:left; margin:10px 0 0 10px; }
+.admin_module_area table{border:none; background:#f9f9f9; padding:5px;}
+.admin_module_area table th{background:#004080; color:#fff; font-size:12px; font-weight:bold;}
+.admin_module_area table td{font-size:12px; overflow:hidden;}
+.tdhead{font-size:12px; width:100px;}
+.admin_title{width:800px; height:30px; float:left;}
+.admin_title_img{width:auto; height:30px; float:left;}
+.admin_title_text{width:auto; height:30px; float:left; margin-left:10px; font-size:15px; font-weight:bold; line-height:30px;}
+.login_box{width:300px; height:200px; float:left; margin:10px 0 0 10px; background-color:#e3e6e4;}
+.login_box table{border:none; width:100%; font-size:12px;}
+.btn{width:auto; height:30px; float:left; color:#fff; background:#04214a; border:none; padding:0 10px 0 10px; cursor:pointer;  }
+.widthtext{width:400px;}
+.active{background:#379300; color:#fff; border:none; cursor:pointer;}
+.inactive{background:#ff2828; color:#fff; border:none; cursor:pointer;}
+.dashboard_icons_cont{width:700px; height:200px; float:left; margin-top:10px; }
+.dashboard_icon{width:100px; height:90px; float:left; margin:10px 20px 0 20px; cursor:pointer;}
+.dashboard_icon:hover{box-shadow:#000 2px 2px 5px; }
+.dash_icon{width:55px; height:53px; float:left; margin-left:20px;}
+.dash_name{width:90px; height:20px; float:left; margin:10px 0 0 5px; font-size:15px; text-align:center; }
+.footer{width:100%; height:30px; float:left; font-size:12px; color:#fff; line-height:30px; background:#1a1a1a;}
+.footer a{color:#fff; text-decoration:none;}
